@@ -1,76 +1,27 @@
 # expo-drag-in-scrollview
 
-A modern Expo (React Native) project with TypeScript support.
+A React Native demonstration of draggable elements within nested ScrollViews, featuring grid snapping and auto-scroll functionality.
 
-## 🚀 Tech Stack
+## Demo
 
-- **Expo SDK**: 54.0.30 (Latest stable)
-- **React**: 19.1.0 (Latest)
-- **React Native**: 0.81.5 (Latest compatible with Expo 54)
-- **TypeScript**: 5.9.2 (Latest)
+![Demo](./demo.gif)
 
-## 📋 Prerequisites
+## Features
 
-- Node.js (v16 or later)
-- npm or yarn
-- Expo CLI
+- **Draggable Box**: Drag and drop a box within a large scrollable canvas
+- **Grid Snapping**: Automatically snaps to a 25px grid for precise positioning
+- **Auto-Scroll**: Automatically scrolls when dragging near screen edges (15% threshold)
+- **Bi-directional Scrolling**: Supports both horizontal and vertical auto-scroll
+- **Smooth Performance**: Built with react-native-reanimated for 60fps animations
+- **Real-time Coordinates**: Displays grid coordinates on the draggable element
 
-## 🛠️ Getting Started
-
-### Installation
+## Getting Started
 
 ```bash
 npm install
-```
-
-### Development
-
-Start the Expo development server:
-
-```bash
 npm start
 ```
 
-### Running on Different Platforms
-
-```bash
-# Android
-npm run android
-
-# iOS (macOS only)
-npm run ios
-
-# Web
-npm run web
-```
-
-## 📱 Features
-
-- TypeScript support with strict mode enabled
-- Expo SDK 54 with new architecture enabled
-- Ready for iOS, Android, and Web platforms
-- Modern React 19 with latest features
-
-## 📁 Project Structure
-
-```
-.
-├── App.tsx           # Main application component
-├── index.ts          # Application entry point
-├── app.json          # Expo configuration
-├── tsconfig.json     # TypeScript configuration
-├── package.json      # Project dependencies
-└── assets/           # Image and asset files
-```
-
-## 🔧 Development
-
-This project uses TypeScript in strict mode. Type checking can be run with:
-
-```bash
-npx tsc --noEmit
-```
-
-## 📄 License
+## License
 
 MIT
